@@ -25,10 +25,11 @@ public class App
     	sendVille(rdCSV.getlVille());
     }
     public static Connection connect() throws ClassNotFoundException {
-        String url = "jdbc:mysql://localhost:3306/maven";
+        //String url = "jdbc:mysql://localhost:3306/maven";
         String ur="jdbc:mysql://localhost/maven?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         Connection conn = null;
         try {
+        	//Class.forName("com.mysql.cj.jdbc.Driver");
             conn = (Connection) DriverManager.getConnection(ur, "flodav", "flodav");
         } catch (SQLException e) {
             System.out.println(e.getMessage());
