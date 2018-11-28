@@ -1,21 +1,9 @@
 package com.TP_MAVEN.controlleur;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
-
-import com.TP_MAVEN.modele.Ville;
-
 
 public class ReadCSV {
 	
-	private String pathCSV;
+	/*private String pathCSV;
 	public List<Ville> getlVille() {
 		return lVille;
 	}
@@ -68,7 +56,7 @@ public class ReadCSV {
 	     
 	    
 		
-	}
+	}*/
 
     
 	

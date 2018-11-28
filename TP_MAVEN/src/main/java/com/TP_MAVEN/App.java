@@ -20,9 +20,9 @@ public class App
 
     public static void main( String[] args )
     {
-    	ReadCSV rdCSV = new ReadCSV(FILENAME);
-    	rdCSV.read();
-    	sendVille(rdCSV.getlVille());
+    	//ReadCSV rdCSV = new ReadCSV(FILENAME);
+    	//rdCSV.read();
+    	//sendVille(rdCSV.getlVille());
     }
     //vfvfvfvfvfv
     public static Connection connect() throws ClassNotFoundException {
