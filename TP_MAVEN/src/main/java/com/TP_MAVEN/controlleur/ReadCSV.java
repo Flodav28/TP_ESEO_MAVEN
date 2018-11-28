@@ -12,7 +12,6 @@ import java.util.List;
 
 import com.TP_MAVEN.modele.Ville;
 
-import au.com.bytecode.opencsv.CSVReader;
 
 public class ReadCSV {
 	
