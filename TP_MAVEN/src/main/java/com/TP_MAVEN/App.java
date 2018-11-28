@@ -24,6 +24,7 @@ public class App
     	rdCSV.read();
     	sendVille(rdCSV.getlVille());
     }
+    //vfvfvfvfvfv
     public static Connection connect() throws ClassNotFoundException {
         //String url = "jdbc:mysql://localhost:3306/maven";
         String ur="jdbc:mysql://localhost/maven?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
