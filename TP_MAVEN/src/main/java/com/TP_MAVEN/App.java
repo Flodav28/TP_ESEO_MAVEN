@@ -53,7 +53,7 @@ public class App
 					ps.setString(6, ville.getCoordonnees_gps());
 					ps.executeUpdate();
 				}
-			} catch (SQLException | ClassNotFoundException e ) {
+			} catch (Exception e) {
 			            System.out.println(e.getMessage());
 			}	
 			
