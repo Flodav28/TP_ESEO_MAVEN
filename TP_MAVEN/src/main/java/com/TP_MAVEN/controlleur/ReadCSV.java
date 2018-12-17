@@ -15,12 +15,12 @@ public class ReadCSV {
 	
 	public ReadCSV(String path) {
 		this.pathCSV=path;
-		this.lVille=new ArrayList<>();
+		//this.lVille=new ArrayList<>();
 	}
 	
 	public void read()  {
 		//String fileName = "src/main/resources/laposte_hexasmal.csv";
-		
+		List lville = new ArrayList<>();
 		Ville ville;
         String csvFile = "/Users/mkyong/csv/country.csv";
         BufferedReader br = null;
@@ -44,10 +44,11 @@ public class ReadCSV {
                     	   ville.setLibelle_acheminement(listeElementVille[3]);
                     	   ville.setLigne_5(listeElementVille[4]);
                     	   ville.setCoordonnees_gps(listeElementVille[5]);
-                    	   this.lVille.add(ville);
+                    	   lville.add(ville);
                        }
               	   } 
                 }
+            this.setlVille(lville);
          	     
 		} catch (IOException e) {
 			e.printStackTrace();
