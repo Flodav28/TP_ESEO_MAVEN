@@ -12,13 +12,7 @@ public class ReadCSV {
 	
 	private String pathCSV;
 	private List<Ville> lVille;
-	public List<Ville> getlVille() {
-		return lVille;
-	}
-
-	public void setlVille(List<Ville> lVille) {
-		this.lVille = lVille;
-	}
+	
 
 
 	
@@ -35,8 +29,7 @@ public class ReadCSV {
         String line = "";
         String cvsSplitBy = ";";
 
-        try {
-        	
+        try {	
             br = new BufferedReader(new FileReader(this.pathCSV));
             while ((line = br.readLine()) != null) {
 
@@ -62,8 +55,7 @@ public class ReadCSV {
 			e.printStackTrace();
 		}
 	     
-	    
-		
+        
 	}
 
     
