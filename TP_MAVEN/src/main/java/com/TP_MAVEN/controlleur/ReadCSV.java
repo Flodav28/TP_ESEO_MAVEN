@@ -20,7 +20,7 @@ public class ReadCSV {
 	
 	public void read()  {
 		//String fileName = "src/main/resources/laposte_hexasmal.csv";
-		List lville = new ArrayList<>();
+		List<Ville> lville = new ArrayList<Ville>();
 		Ville ville;
         String csvFile = "/Users/mkyong/csv/country.csv";
         BufferedReader br = null;
