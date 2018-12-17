@@ -15,7 +15,7 @@ public class ReadCSV {
 	
 	public ReadCSV(String path) {
 		this.pathCSV=path;
-	//	lVille=new ArrayList<>();
+		lVille=new ArrayList<>();
 	}
 	
 	public void read()  {
@@ -53,6 +53,11 @@ public class ReadCSV {
 		}
 	     
         
+	}
+
+	public List<Ville> getlVille() {
+		// TODO Auto-generated method stub
+		return this.lVille;
 	}
 
     

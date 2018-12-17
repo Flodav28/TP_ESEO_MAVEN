@@ -20,9 +20,9 @@ public class App
 
     public static void main( String[] args )
     {
-    	//ReadCSV rdCSV = new ReadCSV(FILENAME);
-    	//rdCSV.read();
-    	//sendVille(rdCSV.getlVille());
+    	ReadCSV rdCSV = new ReadCSV(FILENAME);
+    	rdCSV.read();
+    	sendVille(rdCSV.getlVille());
     }
     //vfvfvfvfvfv
     public static Connection connect() throws ClassNotFoundException {
@@ -39,7 +39,6 @@ public class App
     }
 	public static void sendVille(List<Ville> lVille) {
 		String sql = "INSERT  INTO VILLE_FRANCE1 (Code_commune_INSEE,Nom_commune,Code_postal,Libelle_acheminement,Ligne_5,Coordonnees_gps) VALUES(?,?,?,?,?,?)";
-
 		
 			try {
 				for(Ville ville :lVille) {
