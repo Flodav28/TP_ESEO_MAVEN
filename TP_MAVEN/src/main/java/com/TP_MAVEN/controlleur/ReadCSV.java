@@ -13,12 +13,9 @@ public class ReadCSV {
 	private String pathCSV;
 	private List<Ville> lVille;
 	
-
-
-	
 	public ReadCSV(String path) {
 		this.pathCSV=path;
-		lVille=new ArrayList<>();
+	//	lVille=new ArrayList<>();
 	}
 	
 	public void read()  {
