@@ -1,9 +1,17 @@
 package com.TP_MAVEN.controlleur;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.TP_MAVEN.modele.Ville;
 
 public class ReadCSV {
 	
-	/*private String pathCSV;
+	private String pathCSV;
+	private List<Ville> lVille;
 	public List<Ville> getlVille() {
 		return lVille;
 	}
@@ -12,7 +20,7 @@ public class ReadCSV {
 		this.lVille = lVille;
 	}
 
-	private List<Ville> lVille;
+
 	
 	public ReadCSV(String path) {
 		this.pathCSV=path;
@@ -56,7 +64,7 @@ public class ReadCSV {
 	     
 	    
 		
-	}*/
+	}
 
     
 	
