@@ -15,11 +15,12 @@ public class ReadCSV {
 	
 	public ReadCSV(String path) {
 		this.pathCSV=path;
-		lVille=new ArrayList<>();
+		this.lVille=new ArrayList<>();
 	}
 	
 	public void read()  {
 		//String fileName = "src/main/resources/laposte_hexasmal.csv";
+		
 		Ville ville;
         String csvFile = "/Users/mkyong/csv/country.csv";
         BufferedReader br = null;
@@ -58,6 +59,10 @@ public class ReadCSV {
 	public List<Ville> getlVille() {
 		// TODO Auto-generated method stub
 		return this.lVille;
+	}
+	public void setlVille(List<Ville> lVille) {
+		// TODO Auto-generated method stub
+		 this.lVille=lVille;
 	}
 
     
